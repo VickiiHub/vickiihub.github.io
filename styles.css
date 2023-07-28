@@ -7,10 +7,12 @@
 
 /* || VARIABLES: || */
 :root {
+    --BODY--BACKGROUND--COLOR: snow;
     --MASTER--FONT--FAMILY: 'Aboreto', cursive;
     --MASTER--FONT--COLOR: #2f3e46;
     --PARAGRAPH--FONT-FAMILY: 'Marcellus', serif;
     --PARAGRAPH--FONT--COLOR: #3d405b;
+    --LINK-COLOR: lightcoral;
 }
 
 /* || RESET || */
@@ -37,7 +39,7 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: var(--BODY--BACKGROUND--COLOR);
 }
 
 .Header__Container {
@@ -89,6 +91,10 @@ body {
     font-size: x-large;
     text-align: center;
     color: var(--PARAGRAPH--FONT--COLOR);
+}
+
+.Header__Container .About:a {
+    color: lightcoral;
 }
 
 .Header__Container nav {
