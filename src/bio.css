@@ -121,3 +121,7 @@ p {
     text-align: justify;
     color: var(--PARAGRAPH--FONT--COLOR);
 }
+
+p a {
+    color: var(--LINK-COLOR);
+}
