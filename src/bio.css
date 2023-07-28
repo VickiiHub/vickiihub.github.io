@@ -1,0 +1,123 @@
+/* || IMPORTS || */
+/* || Fonts: */
+/* | Aboreto */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* | Marcellus: */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+/* || VARIABLES: || */
+:root {
+    --BODY--BACKGROUND--COLOR: snow;
+    --MASTER--FONT--FAMILY: 'Aboreto', cursive;
+    --MASTER--FONT--COLOR: #2f3e46;
+    --PARAGRAPH--FONT--FAMILY: 'Marcellus', serif;
+    --PARAGRAPH--FONT--COLOR: #3d405b;
+    --LINK-COLOR: lightcoral;
+}
+
+/* || RESET || */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ||CONFIGURATIONS || */
+html {
+    scroll-behavior: smooth;
+}
+
+/* || STYLES || */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--BODY--BACKGROUND--COLOR);
+    position: relative;
+}
+
+.Nav {
+    /* border-style: solid; */
+    padding: 32px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 1rem;
+    background-color: var(--BODY--BACKGROUND--COLOR);
+}
+
+.Nav .First__Nav__Section {
+    /* border-style: solid; */
+    width: 20rem;
+    text-align: center;
+}
+
+.Nav .Second__Nav__Section {
+    /* border-style: solid; */
+    width: 76rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Nav a {
+    color: var(--LINK-COLOR);
+    text-decoration: none;
+}
+
+.Nav a:hover {
+    text-decoration: underline;
+}
+
+.Bio {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    right: 5rem;
+    padding: 32px;
+}
+
+.Bio img {
+    float: left;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    border-style: none;
+    border-radius: 0.5rem;
+    box-shadow: -6px -6px 12px 0px rgba(0,0,0,0.75);
+}
+
+.Bio #BIO__PAGE__HEADING {
+    padding: 32px;
+    font-family: var(--MASTER--FONT--FAMILY);
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    width: auto;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    font-family: var(--PARAGRAPH--FONT--FAMILY);
+    font-size: 1.5rem;
+    text-align: justify;
+    color: var(--PARAGRAPH--FONT--COLOR);
+}
