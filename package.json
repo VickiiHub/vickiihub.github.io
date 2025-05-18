@@ -1,0 +1,27 @@
+{
+  "name": "vickiihub.github.io",
+  "version": "0.0.3",
+  "description": "My Github Pages Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VickiiHub/vickiihub.github.io.git"
+  },
+  "keywords": [
+    "Vickiihub",
+    "vickiihub",
+    "Github-Pages"
+  ],
+  "author": "VVJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VickiiHub/vickiihub.github.io/issues"
+  },
+  "homepage": "https://github.com/VickiiHub/vickiihub.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
