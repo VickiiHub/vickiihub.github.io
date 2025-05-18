@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/images/favicon_io/favicon-32x32.png" type="image/png"/>
+  <title>Bio - VVJ</title>
+
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="./tailwinds/output.css" type="text/css" >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./contact.css" type="text/css" />
+</head>
+
+<body>
+  <div class="Nav">
+    <div class="First__Nav__Section">
+      <a href="../index.html" class="text-2xl font-semibold">&lsaquo; Back to Home</a>
+    </div>
+    <div class="Second__Nav__Section">
+      <a href="./portfolio.html" class="text-2xl font-semibold">Portfolio</a>
+      <a href="./resume-cv.html" class="text-2xl font-semibold">Resume</a>
+      <a href="./contact.html" class="text-2xl font-semibold">Contact</a>
+    </div>
+  </div>
+  
+  <form id="CONTACT__FORM" class="flex flex-col flex-nowrap items-center justify-center gap-4" action="https://vickiihub.github.io/post" method="POST">
+
+    <label for="FULL__NAME"><input type="text" id="FULL__NAME" placeholder="Your full name" class="input input-bordered w-96 text-center" required /></label>
+    <label for="EMAIL"><input type="email" id="EMAIL" placeholder="Your email address that you use regularly." class="input input-bordered w-96 text-center" required /></label>
+    <textarea class="textarea textarea-bordered w-96 text-center" id="MESSAGE" placeholder="Any message?" value="ok"></textarea>
+
+    <button type="submit" class="btn btn-neutral">Send</button>
+
+  </form>
+
+  <footer></footer>
+</body>
+<script src="./bio.js" id="BIO__PAGE"></script>
+</html>

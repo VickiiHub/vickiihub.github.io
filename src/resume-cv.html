@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+  rel="shortcut icon"
+  href="/assets/images/favicon_io/favicon-32x32.png"
+  type="image/png"
+  />
+  <title>Bio - VVJ</title>
+
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="./tailwinds/output.css" type="text/css" >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./resume-cv.css" type="text/css" />
+</head>
+<body>
+
+  <nav class="Nav">
+    <div class="First__Nav__Section">
+      <a href="../index.html" class="text-3xl font-semibold">&lsaquo; Back to Home</a>
+    </div>
+    <div class="Second__Nav__Section">
+      <a href="./portfolio.html" class="text-2xl font-semibold">Portfolio</a>
+      <a href="./resume-cv.html" class="text-2xl font-semibold">Resume</a>
+      <a href="./contact.html" class="text-2xl font-semibold">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <div id="MY__RESUME" class="fixed top-32 left-0 right-0">
+      <div class="flex flex-row flex-nowrap items-center justify-center gap-4">
+        <button class="btn btn-neutral">Download Resume</button>
+        <p class="text-4xl font-bold">Or</p>
+        <label for="SEND__PDF__TO__EMAIL" class="flex flex-row flex-nowrap items-center justify-center gap-4">
+          <input type="email" id="SEND__PDF__TO__EMAIL" placeholder="Enter your email address to send via email." class="input input-bordered w-96 text-center" />
+          <button type="submit" class="btn btn-neutral">Send Resume</button>
+        </label>
+      </div>
+
+      <!-- View Resume-CV -->
+      <iframe src="https://www.google.com" width="" height="" style="border:solid;" class="w-screen h-dvh fixed top-64 left-0 bottom-0 right-0 border-none overflow-x-auto"></iframe>
+    </div>
+  </main>
+
+  <footer></footer>
+  
+</body>
+<script src="./bio.js" id="BIO__PAGE"></script>
+</html>
