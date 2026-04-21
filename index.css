@@ -114,3 +114,7 @@ body {
 .Header__Container nav a:hover {
   text-decoration: underline;
 }
+
+footer a {
+  color: var(--LINK-COLOR);
+}
